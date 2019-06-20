@@ -1,14 +1,14 @@
 ---
-title: Great Coffee with a conscience
+title: Great Coffee but it's expensive
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
-why-kaldi-blurb:
-  heading: Why Kaldi?
-  text: >-
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+blurb:
+    heading: Why Kaldi?
+    text: >-
+        Kaldi is the coffee store for everyone who believes that great coffee
+        shouldn't just taste good, it should do good too. We source all of our beans
+        directly from small scale sustainable farmers and make sure part of the
+        profits are reinvested in their communities.
 intro:
   heading: What we offer
   text: >-
@@ -30,7 +30,7 @@ products:
       tools for every taste and experience level. No matter if you roast your
       own beans or just bought your first french press, you’ll find a gadget to
       fall in love with in our shop.
-custom-blurb:
+custom:
   heading: This is a custom blurb
   text: >-
     Wow, looks like i really messed this up last time. Third times the charm i guess...
