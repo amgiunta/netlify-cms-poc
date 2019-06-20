@@ -11,5 +11,9 @@ apps:
     image: /img/facebook.png
     link: 'Https://facebook.com'
     text: This app is garbage. I advise you not to use it.
+  - description: UMass Medical School
+    image: /img/umms-official.png
+    link: 'http://umassmed.edu'
+    text: A fantastic school website.
 ---
 
