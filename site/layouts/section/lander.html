@@ -1,0 +1,16 @@
+{{ define "main"}}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle)}}
+
+<div class="bg-off-white pv4">
+    <div class="ph3 mw7 center">
+        <h2 class="f2 b lh-title mb2">My Cool Apps</h2>
+        <p class="mb4 mw6">please rate 5 stars</p>
+
+        <div class="flex-ns mhn2-ns mb3">
+            {{ partial "2-up-apps" .Params }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

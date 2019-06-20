@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Pages"
     files:
       - file: "site/content/_index.md"
-        label: "Home Page"
+        label: "Home Page BOIIIIIIIIIII"
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
@@ -41,13 +41,17 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/lander/_index.md"
-        label: "landing page template"
+        label: "Landing Page"
         name: "landing page"
         fields:
-          - {label: Title, anem: title, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Image, name: image, widget: image}
           - {label: Apps, name: apps, widget: list, fields: [
+              {label: Link, name: link, widget: string}
               {label: Image, name: image, widget: image}
               {label: Text, name: text, widget: text}]}
+              {label: Description, name: description, widget: text}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"

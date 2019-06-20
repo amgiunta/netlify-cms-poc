@@ -2,28 +2,11 @@
 title: Great Coffee but it's expensive
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
-<<<<<<< HEAD
 blurb:
     heading: Why Kaldi?
     text: >-
         Kaldi is the coffee store for everyone who believes that great coffee
-        shouldn't just taste good, it should do good too. We source all of our beans
-        directly from small scale sustainable farmers and make sure part of the
-        profits are reinvested in their communities.
-=======
-why-kaldi-blurb:
-  heading: Why Kaldi?
-  text: >-
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-custom-blurb:
-  heading: This is a custom blurb
-  text: >-
-    Wow, looks like i really messed this up last time. Third times the charm i
-    guess...
->>>>>>> e4d156e5aa0d5536fc8f868afbbab5f6948d6863
+        shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities.
 intro:
   heading: What we offer
   text: >-
@@ -45,13 +28,10 @@ products:
       tools for every taste and experience level. No matter if you roast your
       own beans or just bought your first french press, you’ll find a gadget to
       fall in love with in our shop.
-<<<<<<< HEAD
 custom:
   heading: This is a custom blurb
   text: >-
     Wow, looks like i really messed this up last time. Third times the charm i guess...
-=======
->>>>>>> e4d156e5aa0d5536fc8f868afbbab5f6948d6863
 values:
   heading: Our Values
   text: >-
