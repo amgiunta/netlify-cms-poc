@@ -30,6 +30,10 @@ products:
       tools for every taste and experience level. No matter if you roast your
       own beans or just bought your first french press, you’ll find a gadget to
       fall in love with in our shop.
+blurb:
+  heading: This is a custom blurb
+  text: >-
+    Wow, looks like i really messed this up last time. Third times the charm i guess...
 values:
   heading: Our Values
   text: >-
