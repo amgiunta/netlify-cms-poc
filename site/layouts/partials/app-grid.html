@@ -1,0 +1,31 @@
+{{ $page := . }}
+<div class="container-fluid">
+    {{ if (gt (len .) 0)}}
+        {{ range $i, $elem := . }}
+            {{if (or (eq (mod $i 3) 0) (eq $i 0))}}
+                {{ $diff := (sub (len $page) $i)}}
+                {{ if (ge $diff 3)}}
+                    {{partial "app-row" (dict "app1" $elem "app2" (index $page (add $i 1) ) "app3" (index $page (add $i 2))) }}
+                {{ else if (eq $diff 2)}}
+                    <div class="row">
+                        <div class="col">
+                            {{partial "app" $elem}}
+                        </div>
+                        <div class="col">
+                            {{partial "app" (index $page (add $i 1))}}
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                {{ else if (eq $diff 1)}}
+                    <div class="row">
+                        <div class="col">
+                            {{partial "app" $elem}}
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</div>
